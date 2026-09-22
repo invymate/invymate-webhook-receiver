@@ -1,0 +1,16 @@
+{
+  "name": "invymate-webhook-receiver-example",
+  "version": "0.1.0",
+  "description": "Minimal Node.js receiver example for InvyMate webhooks.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test",
+    "check": "npm test"
+  }
+}
